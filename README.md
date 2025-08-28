@@ -40,7 +40,7 @@ A full-stack portfolio monitoring dashboard for Portfolio Managers overseeing mu
 ## Project Structure
 
 ```
-neuberger-berman/
+nb-portfolio-dashboard/
 ├── backend/                 # FastAPI application
 │   ├── app/
 │   │   ├── api/            # API routes and endpoints
@@ -82,7 +82,7 @@ neuberger-berman/
 ```bash
 # Clone repository and start database container
 gh repo clone Adamhunter108/nb-portfolio-dashboard
-cd neuberger-berman
+cd nb-portfolio-dashboard
 docker-compose up -d postgres
 
 # Verify container is running
